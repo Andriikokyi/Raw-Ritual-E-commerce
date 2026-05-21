@@ -25,11 +25,11 @@ export default function Shop() {
   }
 
   return (
-    <main style={{ paddingTop: 'var(--nav-h)' }}>
+    <main>
       {/* Header */}
       <section style={{
         background: 'var(--brown)',
-        padding: '80px 0 64px',
+        padding: 'calc(var(--nav-h) + 64px) 0 64px',
         textAlign: 'center',
       }}>
         <div className="container">
